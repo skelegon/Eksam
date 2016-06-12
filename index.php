@@ -25,6 +25,7 @@ function like() {
 		$handle = fopen("likes.txt", "w");
 	  fwrite($handle, $counter);
 	  fclose($handle);
+		header("Location: index.php");
 	}
 }
 ?>
