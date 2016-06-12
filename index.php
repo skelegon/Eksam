@@ -40,9 +40,11 @@ function like() {
 <body>
 	<div id="wrap">
 		<div id="content">
-			<form action="index.php">
-				<input type="submit" class ="button" name="like" value="LIKE" />
-			</form>
+			<div>
+				<form action="index.php">
+					<input type="submit" class ="button" name="like" value="LIKE" />
+				</form>
+			</div>
 			<div class="counter">
 				<?="Likes: " . $counter;?>
 			</div>
